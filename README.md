@@ -1,6 +1,50 @@
-# trampolean
+# Trampolean
 
 Suivi de l'expérience en direct
+
+## Installation modification
+
+
+### cloner le dépôt github en local
+
+Ouvrir un terminal
+```bash
+// dans le dossier approprié, par exemple sites
+$ cd ~/sites
+$ git clone git@github.com:trampolean/trampolean.git
+```
+### récupérer les modifications effectuer sur github par un collaborateur
+
+Ouvrir le terminal
+```bash
+$ cd ~/sites/trampolean
+$ git pull
+```
+
+### effectuer une modification
+
+Ouvrir le terminal et lancer un petit serveur local, par exemple :
+```bash
+$ cd ~/sites/trampolean
+$ python3 -m http.server 8000
+ou
+$ python -m SimpleHTTPServer 8000
+```
+
+Ouvrir les fichiers avec un éditeur : [brackets](http://brackets.io/) ou [atom](https://atom.io/) par exemple.
+Faire une modification.
+
+Vérifier dans un navigateur : http://localhost:8000
+
+### publier une modification
+
+Ouvrir le terminal
+```bash
+$ cd ~/sites/trampolean
+$ git add .
+$ git commit -m "Un message explicite qui explique ma petite modification"
+$ git push
+```
 
 ## Template
 
