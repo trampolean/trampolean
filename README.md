@@ -14,7 +14,7 @@ Ouvrir un terminal
 $ cd ~/sites
 $ git clone git@github.com:trampolean/trampolean.git
 ```
-### récupérer les modifications effectuer sur github par un collaborateur
+### récupérer les modifications effectuées sur github par un collaborateur
 
 Ouvrir le terminal
 ```bash
